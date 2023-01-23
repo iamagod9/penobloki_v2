@@ -1,0 +1,856 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 16px;
+	font-family: Open-Sans;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+ul li {
+    list-style: none; 
+    background: url(img/marker1.png) no-repeat left 50%; 
+    padding-left: 25px;
+}
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 200px;
+}
+
+.header {
+	display: flex;
+	font-size: 14px;
+	width: 100%;
+	justify-content: space-around;
+	text-align: center;
+	height: 70px;
+	background-color: white;
+	padding: 8px 0px;
+	box-shadow:  0 2px 5px grey;
+}
+
+.main {
+	
+}
+
+.logo {
+	height: 150px;
+}
+
+.logo-block {
+	margin-top: -40px;
+}
+
+.log {
+	height: 20px;
+}
+
+.serch_header {
+	width: 25%;
+	height: auto;
+	margin-top: 17px;
+}
+
+.search_block {
+	width: 100%;
+	height: 40px;
+	min-width: 90px;
+	background-color: #FFFFFF;
+	padding-left: 15px;
+	border: 1px solid #E8E8E8;
+	border-radius: 5px;
+	outline: none;
+}
+
+.userlog-block {
+	margin-top: 20px;
+}
+
+.nav-menu-header {
+	display: flex;
+	margin-top: 20px;
+}
+
+.nav-menu {
+	padding: 8px 20px;
+	color: #54616c;
+	font-family: OpenSans-Semibold;
+	font-weight: 600;
+}
+
+.nav-menu:hover {
+	/*color: rgb(0, 170, 232);*/
+	color: #999999;
+}
+
+/*######## To Begin styles on Главная #######*/
+.conteiner {
+
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.share-content {
+	display: flex;
+	margin-top: 100px;
+}
+
+.characteristics-pb {
+	height: 540px;
+}
+
+.advantage-of-penoblocks {
+	display: flex;
+	width: 100%;
+}
+
+.adventage-items {
+	padding-left: 30px;
+}
+
+.antifire-img {
+	height: 450px;
+}
+
+.type-and-size-of-penoblocks {
+	display: flex;
+	margin-bottom: 50px;
+}
+
+.size-of-penoblocks {
+	height: 800px;
+}
+
+.content {
+	width: 100%;
+	height: 100%;
+	min-height: 800px;
+}
+
+.title-content {
+	text-align: center;
+	padding: 50px 0px 50px 0px;
+	font-size: 30px;
+
+}
+
+.penoblocks-block {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.penoblocks {
+	/*border: 1px solid;
+	width: 30%;
+	height: 300px;
+	padding: 15px 15px 0px 15px;*/
+	text-align: center;
+	box-shadow: 0 0 10px #00000070;
+    width: 26%;
+    height: 340px;
+    background-color: white;
+    border-radius: 10px;
+    transition-duration: 0.6s;
+    margin-bottom: 50px;
+}
+
+.penoblocks-img {
+	/*width: 90%;
+	height: 180px;*/
+	height: 200px;
+	width: 100%;
+	border-radius: 10px 10px 0px 0px;
+}
+
+.penoblocks-name {
+	text-align: center;
+	padding: 0px 10px 15px 10px;
+}
+
+.penoblocks-button {
+	border: 1px solid #2699fb;
+	padding: 10px;
+	border-radius: 5px;
+	color: #2699fb;
+	width: 100%;
+	cursor: pointer;
+
+	display: block;
+	text-align: center;
+}
+
+.pb-button {
+	margin-top: 500px;
+}
+
+.penoblocks-button:hover {
+	background: #2699fb;
+	color: white;
+}
+
+.penoblocks-searched {
+	display: block;
+}
+
+.count-basket {
+	width: 40px;
+    outline: none;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.catalog-form input {
+	outline: 0;
+	border: 0;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 1rem;
+    background-color: transparent;
+
+    margin-bottom: 60px;
+}
+.table td, .table th {
+    padding: .75rem;
+    border-top: 1px solid #dee2e6;
+    text-align: center;
+}
+
+/*######## The End styles on Главная #######*/
+
+.conteiner-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
+.accordion-section {
+	margin: 50px 0;
+}
+
+.section-title {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.accordion__toggle {
+    background-color: #eee;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    transition: 0.4s;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.active, .accordion__toggle:hover {
+    background-color: #ccc;
+}
+
+.accordion__item {
+	border: 1px solid #cbcbcb;
+}
+
+.accordion__item:not(:last-child) {
+	margin-bottom: 20px;
+}
+
+.accordion__content {
+    padding: 20px;
+    display: none;
+    overflow: hidden;
+
+    text-align: center;
+}
+
+/*###################################################*/
+
+.footer {
+	display: flex;
+	width: 100%;
+	background-color: #222222;
+}
+
+.footer_block_content_top {
+	display: flex;
+	font-family: sans-serif;
+	justify-content: space-around;
+	padding: 20px 0;
+
+	border-bottom: 1px solid #333;
+}
+
+.footer_block_one {
+	display: flex;
+	flex-direction: column;
+	/*width: 10%;*/
+}
+
+.zag_parametr_footer {
+	font-size: 18px;
+	text-decoration: none;
+	font-weight: bold;
+	color: white;
+
+	padding-bottom: 20px;
+}
+
+.zag_parametr_footer:after {
+	color: #444346;
+}
+
+.parametr_footer {
+	font-size: 15px;
+	text-decoration: none;
+	color: #808080;
+	line-height: 25px;
+}
+
+.parametr_footer:hover {
+	color: #444346;
+}
+
+.footer_block_contact {
+	display: flex;
+	flex-direction: column;
+}
+
+.telephone_footer {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.mail_footer {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+}
+
+.mail_footer:hover {
+	color: #444346;
+}
+
+.geo_footer {
+	color: white;
+	font-size: 18px;
+}
+
+.footer_block_content_bottom {
+	display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.text_footer_bottom {
+	font-size: 18px;
+	color: white;
+	padding-left: 20px;
+}
+
+
+.block_contact {
+	text-decoration: none;
+	color: white;
+	font-size: 18px;
+
+	padding-top: 15px;
+}
+
+.ours_contact {
+	font-size: 18px;
+	color: white;
+	font-weight: bold;
+}
+
+.copyright {
+	font-size: 18px;
+	color: white;
+}
+
+.icons_footer {
+	width: 1rem;
+	height: 1rem;
+}
+
+/*######## To Begin styles on Контакты #######*/
+
+.contact-section {
+	margin: 30px 0;
+}
+
+.contact-info {
+	display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.addres-correct {
+	margin-top: -10px;
+}
+
+.contact-info .contact-item {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.contact-info .contact-item i {
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	position: relative;
+	text-align: center;
+	color: #333;
+	font-size: 17px;
+	padding-top: 13px;
+	margin-right: 20px;
+
+	box-sizing: border-box;
+}
+
+.contact-info .contact-item i:after {
+	position: absolute;
+	content: '';
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	border: 1px solid #d2d2db;
+	transform: rotate(45deg);
+	border-radius: 2px;
+}
+
+.contact-info .contact-item p {
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	margin-bottom: 0;
+
+	font-size: 16px;
+}
+
+.contact-info .contact-item p span {
+	display: block;
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #020031;
+	font-weight: 500;
+}
+
+.contact-maps {
+	width: 100%;
+
+	box-shadow: 0 0 10px rgba(155, 155, 155, 0.7);
+	border-radius: 10px;
+}
+
+.contact-maps img {
+	width: 100%;
+
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0;
+}
+
+.title-feedback {
+	padding: 50px 0px 50px 0px;
+	font-size: 20px;
+}
+
+.feedback-up {
+	display: flex;
+	justify-content: space-between;
+}
+
+.feedback-message {
+
+}
+
+.feedback-message-box {
+	width: 700px;
+	height: 160px;
+	background: #f7f7f7;
+    border: 1px solid #eeeeee;
+    border-radius: 2px;
+    box-shadow: none;
+	resize: none;
+	outline: none;
+}
+
+.feedback-data {
+
+}
+
+.item-feedback-data {
+
+}
+
+.feedback-data-box {
+	width: 400px;
+	min-height: 33px;
+	background: #f7f7f7;
+    border: 1px solid #eeeeee;
+    border-radius: 2px;
+    box-shadow: none;
+	resize: none;
+	outline: none;
+}
+
+.text-feedback {
+	color: grey;
+	font-size: 13px;
+	padding-bottom: 10px;
+}
+
+.checkbox-feedback {
+	padding-top: 10px;
+}
+
+.feedback-button {
+	width: 150px;
+	height: 30px;
+	background-color: white;
+	border: 1px solid #2699fb;
+	padding: 5px;
+	border-radius: 5px;
+	color: #2699fb; 
+}
+
+.feedback-button:hover {
+	background: #2699fb;
+	color: white;
+}
+
+/*######## The End styles on Контакты #######*/
+
+/*######## To Begin styles on Акции #######*/
+
+.blog-section {
+	padding: 60px 0;
+}
+
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.blog-width {
+	width: 100%;
+}
+
+.blog-item {
+	margin-bottom: 60px;
+	overflow: hidden;
+}
+
+.blog-item .blog-img {
+	width: 230px;
+	height: 170px;
+	float: left;
+
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center 0;
+}
+
+.blog-item .blog-content {
+	padding-left: 258px;
+	font-size: 16px;
+}
+
+.blog-item .blog-content h4 {
+	font-size: 22px;
+	font-weight: 400;
+	margin-bottom: 8px;
+	line-height: 1.4;
+}
+
+.blog-item .blog-content p {
+	margin-bottom: 10px;
+}
+
+.blog-item .blog-content a {
+	text-decoration: none;
+	color: #000;
+}
+
+.blog-item .blog-content .blog-readmore {
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 500;
+}
+
+.blog-item .blog-meta {
+	margin-bottom: 15px;
+}
+
+.blog-item .blog-meta span {
+	margin-right: 10px;
+	font-size: 12px;
+}
+
+.blog-item .blog-meta span i {
+	margin-right: 5px;
+}
+
+.img-blog {
+	width: 225px;
+}
+
+/*######## The End styles on Акции #######*/
+
+.about-the-store {
+	margin: 50px 0px;
+}
+
+.remove-btn {
+  padding: 10px 25px;
+  margin-top: 15px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+td a {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #2699fb;
+}
+
+@font-face {
+	font-family: "Open-Sans";
+	src: url("font/opensans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+	font-family: "OpenSans-Bold";
+	src: url("font/opensans/OpenSans-Bold.ttf");
+}
+
+@font-face {
+	font-family: "OpenSans-Italic";
+	src: url("font/opensans/OpenSans-Italic.ttf");
+}
+
+@font-face {
+	font-family: "OpenSans-Semibold";
+	src: url("font/opensans/OpenSans-Semibold.ttf");
+}
+
+@media screen and (max-width: 360px) {
+	h1 {
+		font-size: 26px;
+		text-align: center;
+	}
+
+	.header {
+		display: block;
+		height: 260px;
+	}
+
+	.search-block {
+		width: 100%;
+		max-width: 50px;
+	}
+
+	.serch_header {
+		width: 100%;
+		max-width: 325px;
+		margin: 0px 10px;
+	}
+
+	.nav-menu-header {
+		display: block;
+		margin-bottom: 10px;
+	}
+
+	.nav-menu {
+		padding: 0px 10px;
+	}
+
+	.logo-block {
+		margin: 0 auto; 
+	}
+
+	.userlog-block {
+		display: flex;
+		position: absolute;
+		padding-left: 12px;
+	}
+
+	.content {
+		display: block;
+		width: 100%;
+	}
+
+	.share-content {
+		margin-top: 50px;
+	}
+
+	.characteristics-pb {
+		display: none;
+	}
+
+	.main-text {
+		padding: 0px 10px;
+	}
+
+	.advantage-of-penoblocks , .type-and-size-of-penoblocks , .footer_block_content_top , .parametr_footer {
+		display: block;
+	} 
+
+	li {
+		margin: 0px 10px;
+	}
+
+	.antifire-img {
+		height: 245px;
+		margin: 0px 10px;
+	}
+
+	.size-of-penoblocks {
+		height: 420px;
+		width: 320px;
+		margin: 0px 10px;
+	}
+
+	.footer {
+		display: block;
+		width: 100%;
+	}
+
+	.footer_block_one {
+		display: block;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	.footer_block_contact {
+		display: flex;
+		text-align: center;
+	}
+
+	.footer_block_content_bottom {
+		text-align: center;
+		display: block;
+	}
+
+	.copyright , .text_footer_bottom {
+		margin-bottom: 10px;
+	}
+
+	.title-content {
+		font-size: 26px;
+	}
+
+	.penoblocks-block {
+		display: block;
+	}
+
+	.penoblocks-button {
+		margin-left: -10px;
+		margin-top: 8px;
+		width: 325px;
+	}
+
+	.penoblocks {
+		width: 325px;
+		margin-left: 10px;
+	}
+
+	.blog-section {
+		padding: 60px 10px 10px 10px;
+	}
+
+	.blog-item .blog-content {
+		padding-left: 0px;
+	}
+
+	.contact-item {
+		padding-bottom: 30px;
+	}
+
+	.contact-maps {
+		display: none;
+	}
+
+	.contact-info {
+		display: block;
+		text-align: center;
+		margin-bottom: 0px;
+	}
+
+	.contact-info .contact-item p {
+		display: block;
+		width: 300px;
+	}
+
+	.feedback-up {
+		display: block;
+	}
+
+	.feedback-message-box , .feedback-data-box {
+		width: 320px;
+	}
+
+	form {
+		margin-left: 10px;
+	}
+
+	.feedback-button {
+		margin-left: 70px;
+	}
+
+	.title-feedback {
+		text-align: center;
+	}
+
+	.high-item {
+		position: absolute;
+		width: 193px;
+	    margin-left: 113px;
+	    margin-top: -260px;
+	}
+
+	.high-items {
+		position: absolute;
+   		margin-top: -260px;
+   		width: 100px;
+	}
+
+	.text-basket {
+		margin-left: 10px;
+	}
+
+	.pb-button {
+    	margin-top: 120px;
+    	margin-left: 10px;
+    	width: 320px;
+	}
+
+	table {
+		font-size: 12.5px;
+	}
+
+	.about-the-store-text {
+		margin-left: 10px;
+	}
+}
